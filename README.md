@@ -1,8 +1,6 @@
-css.php
-=======
+#css.php
 
-Generate CSS style sheets with PHP.
------------------------------------
+##Generate CSS style sheets with PHP.
 
 PHP variables can be added to variables.php and referenced in the style.php.css "style sheet."
 When css.php is executed from the command line, a normal CSS file, "style.css" will be generated.
