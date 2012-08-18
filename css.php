@@ -7,13 +7,6 @@ $css_style_sheet = "style.css";
 $php_style_sheet = "style.php.css";
 
 
-// Check for '-merge' input argument.
-if (sizeof($argv) == 1)
-	$merge_css = false;
-elseif ($argv[1] == "-merge")
-	$css_contents = file_get_contents($style_sheet) or die("Can't open $css_file.");
-else
-	die("Invalid argument. Use -merge to keep new css content.\n");
 
 // Include "css variables" from file and define
 // any other variables we may need.
